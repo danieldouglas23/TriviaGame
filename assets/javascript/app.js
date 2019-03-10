@@ -4,7 +4,7 @@ var answersArray = ["d", "c", "a", "b", "d", "c", "b"]
 var unanswered = answersArray.length;
 
 //timer
-var counter = 3;
+var counter = 61;
 var interval = setInterval(function () {
     counter--;
     // Display 'counter' wherever you want to display it.
