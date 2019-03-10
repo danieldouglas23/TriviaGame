@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Terrific Trivia Game!</title>
+
+    <!-- Our CSS style sheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <p class="header">Totally Terrific Trivia!</p>
+
+        <h1>Time Remaining: <span id="timer"></span> Seconds</h1>
+        <br>
+
+        <div id="question-container">
+
+            <h3>What is the highest US state capital city in elevation? </h3>
+
+            <div id="question">
+                <input type="radio" class="radio-button" name="q1" value="a"> Anchorage, AK
+                <input type="radio" class="radio-button" name="q1" value="b"> Denver, CO
+                <input type="radio" class="radio-button" name="q1" value="c"> Helena, MT
+                <input type="radio" class="radio-button" name="q1" value="d"> Santa Fe, NM
+            </div>
+
+            <h3>What is the tallest peak in Colorado? </h3>
+
+            <div id="question">
+                <input type="radio" class="radio-button" name="q2" value="a"> Mt Massive
+                <input type="radio" class="radio-button" name="q2" value="b"> Pikes Peak
+                <input type="radio" class="radio-button" name="q2" value="c"> Mt Elbert
+                <input type="radio" class="radio-button" name="q2" value="d"> Mt of the Holy Cross
+            </div>
+
+            <h3>What is the longest river in the world? </h3>
+
+            <div id="question">
+                <input type="radio" class="radio-button" name="q3" value="a"> Nile River
+                <input type="radio" class="radio-button" name="q3" value="b"> Mississippi River
+                <input type="radio" class="radio-button" name="q3" value="c"> Amazon River
+                <input type="radio" class="radio-button" name="q3" value="d"> Yukon River
+            </div>
+
+            <h3>With 195 trails and over 5,200 acres, this ski area is the largest in CO: </h3>
+
+            <div id="question">
+                <input type="radio" class="radio-button" name="q4" value="a"> Steamboat
+                <input type="radio" class="radio-button" name="q4" value="b"> Vail
+                <input type="radio" class="radio-button" name="q4" value="c"> Breckenridge
+                <input type="radio" class="radio-button" name="q4" value="d"> Snowmass
+            </div>
+
+            <h3>What is the smallest state in the US?</h3>
+
+            <div id="question">
+                <input type="radio" class="radio-button" name="q5" value="a"> Delaware
+                <input type="radio" class="radio-button" name="q5" value="b"> Maryland
+                <input type="radio" class="radio-button" name="q5" value="c"> Hawaii
+                <input type="radio" class="radio-button" name="q5" value="d"> Rhode Island
+            </div>
+
+            <h3>This river which rises near Creede, is the longest to originate in Colorado: </h3>
+
+            <div id="question">
+                <input type="radio" class="radio-button" name="q6" value="a"> Arkansas River
+                <input type="radio" class="radio-button" name="q6" value="b"> Colorado River
+                <input type="radio" class="radio-button" name="q6" value="c"> Rio Grande
+                <input type="radio" class="radio-button" name="q6" value="d"> Platte River
+            </div>
+
+            <h3>What is the largest city by land area in the continental US? </h3>
+
+            <div id="question">
+                <input type="radio" class="radio-button" name="q7" value="a"> Houston, TX
+                <input type="radio" class="radio-button" name="q7" value="b"> Jacksonville, FL
+                <input type="radio" class="radio-button" name="q7" value="c"> Phoenix, AZ
+                <input type="radio" class="radio-button" name="q7" value="d"> Los Angeles, CA
+            </div>
+
+            <br>
+            <div id="submit-button">
+                <input id="submit-button" type="submit" value="Submit">
+            </div>
+
+        </div>
+        <div id="answers-container">
+            <h2 id="correct-answers">Correct Answers: </h2>
+            <h2 id="incorrect-answers">Incorrect Answers: </h2>
+            <h2 id="unanswered">Unanswered: </h2>
+        </div>
+
+        <div id="loser"></div>
+           
+    </div>
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Script -->
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>
